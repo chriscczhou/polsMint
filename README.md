@@ -5,6 +5,6 @@ PRC-20 POLS 自动化mint脚本
 
 ## 使用说明
  - 下载项目源码
- - 安装python3，安装依赖`pip install web3`;
+ - 安装python3，安装依赖`pip install web3==5.31.1`;
  - 在.env文件中写入地址和私钥；
  - 运行脚本：`python polsMint.py`
