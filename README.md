@@ -12,7 +12,9 @@ PRC-20 POLS 自动化mint脚本
 
 ### 1. 下载项目源码
 
-`git clone https://github.com/chriscczhou/polsMint.git`
+```
+git clone https://github.com/chriscczhou/polsMint.git
+```
 
 ### 2. 创建Python虚拟环境
 
@@ -33,4 +35,6 @@ pip install python-dotenv==1.0.0
 
 ### 5. 运行脚本
 
-`python polsMint.py`
+```
+python polsMint.py
+```
