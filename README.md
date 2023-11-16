@@ -1,5 +1,10 @@
+## **更新了脚本使用文档—马蹄POLY铭文脚本使用教程（来自社区）.pdf**
+## **更新了脚本使用文档—马蹄POLY铭文脚本使用教程（来自社区）.pdf**
+## **更新了脚本使用文档—马蹄POLY铭文脚本使用教程（来自社区）.pdf**
+
 # polsMint
 PRC-20 POLS 自动化mint脚本
+
 ## 效果图
 ![image](https://github.com/chriscczhou/polsMint/assets/108380177/e703937e-0ab3-46c1-898e-2a9bd6545017)
 
@@ -16,7 +21,7 @@ PRC-20 POLS 自动化mint脚本
 git clone https://github.com/chriscczhou/polsMint.git
 ```
 
-### 2. 创建Python虚拟环境
+### 2. 创建Python虚拟环境(非必需步骤)
 
 ```
 cd polsMint
