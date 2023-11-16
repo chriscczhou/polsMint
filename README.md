@@ -10,11 +10,11 @@ PRC-20 POLS 自动化mint脚本
 
 ## 使用说明
 
-### 下载项目源码
+### 1. 下载项目源码
 
 `git clone https://github.com/chriscczhou/polsMint.git`
 
-### 创建Python虚拟环境
+### 2. 创建Python虚拟环境
 
 ```
 cd polsMint
@@ -22,15 +22,15 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-### 安装依赖
+### 3. 安装依赖
 
 ```
 pip install web3==6.11.3
 pip install python-dotenv==1.0.0
 ```
 
-### 在.env文件中写入地址和私钥
+### 4. 在.env文件中写入地址和私钥
 
-### 运行脚本
+### 5. 运行脚本
 
 `python polsMint.py`
