@@ -3,6 +3,14 @@
 # polsMint
 PRC-20 POLS 自动化mint脚本
 
+该脚本同时也兼容其他EVM链，需要修改3处代码。
+
+ - 换rpc地址：找到代码中的`rpc_url = "https://1rpc.io/matic"`，打开chainlist.org查看可用的rpc节点进行替换
+ - 修改chainId：找到代码中`'chainId': 137`,根据chainlist.org查看对应链的chainId进行替换
+ - 修改交易的data：找到代码中的`'data':'0x646174613a2c7b2270223a227072632d3230222c226f70223a226d696e74222c227469636b223a22706f6c73222c22616d74223a22313030303030303030227d'`，使用utf8-hex.py把mint字符串转换后替换
+
+
+
 ## 效果图
 ![image](https://github.com/chriscczhou/polsMint/assets/108380177/e703937e-0ab3-46c1-898e-2a9bd6545017)
 
